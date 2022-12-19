@@ -704,6 +704,18 @@
    "name" : "_ZN3fmt2v712system_errorD2Ev"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v719basic_memory_bufferIcLm500ENSt3__19allocatorIcEEE4growEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v719basic_memory_bufferIjLm32ENSt3__19allocatorIjEEE4growEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v719basic_memory_bufferIwLm500ENSt3__19allocatorIwEEE4growEm"
+  },
+  {
    "name" : "_ZN3fmt2v719format_system_errorERNS0_6detail6bufferIcEEiNS0_17basic_string_viewIcEE"
   },
   {
@@ -726,7 +738,55 @@
    "name" : "_ZN3fmt2v76detail10vformat_toIcEEvRNS1_6bufferIT_EENS0_17basic_string_viewIS4_EENS0_17basic_format_argsINS0_20basic_format_contextINS1_15buffer_appenderINS0_13type_identityIS4_E4typeEEESE_EEEENS1_10locale_refE"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10write_charIcNS1_15buffer_appenderIcEEEET0_S5_T_RKNS0_18basic_format_specsIS6_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail10write_charIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_S8_T_RKNS0_18basic_format_specsIS9_EE"
+  },
+  {
    "name" : "_ZN3fmt2v76detail11assert_failEPKciS3_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_bytesIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_S8_NS0_17basic_string_viewIcEERKNS0_18basic_format_specsIT_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_14big_decimal_fpEcEET_S6_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESB_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_9dragonbox10decimal_fpIdEEcEET_S8_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESD_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_9dragonbox10decimal_fpIfEEcEET_S8_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESD_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_14big_decimal_fpEcEET_S9_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESE_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_9dragonbox10decimal_fpIdEEcEET_SB_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESG_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_9dragonbox10decimal_fpIfEEcEET_SB_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESG_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS1_14big_decimal_fpEcEET_SD_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESI_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS1_9dragonbox10decimal_fpIdEEcEET_SF_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESK_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS1_9dragonbox10decimal_fpIfEEcEET_SF_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESK_"
   },
   {
    "name" : "_ZN3fmt2v76detail12count_digitsILj4ENS1_16fallback_uintptrEEEiT0_"
@@ -768,6 +828,22 @@
    "name" : "_ZN3fmt2v76detail14snprintf_floatIeEEiT_iNS1_11float_specsERNS1_6bufferIcEE"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail14write_exponentIcNS1_15buffer_appenderIcEEEET0_iS5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail14write_exponentIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_iS8_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail15fallback_formatIdEEvT_ibRNS1_6bufferIcEERi"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail15write_nonfiniteIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_S8_bRKNS0_18basic_format_specsIT_EERKNS1_11float_specsE"
+  },
+  {
    "name" : "_ZN3fmt2v76detail17format_error_codeERNS1_6bufferIcEEiNS0_17basic_string_viewIcEE"
   },
   {
@@ -788,6 +864,82 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail4fillINS1_15buffer_appenderIcEEcEET_S5_mRKNS1_6fill_tIT0_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail4fillINSt3__120back_insert_iteratorINS1_6bufferIcEEEEcEET_S8_mRKNS1_6fill_tIT0_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail4fillIPccEET_S4_mRKNS1_6fill_tIT0_EE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEdLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEeLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEfLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEiLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEjLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEmLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEnLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEoLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEExLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEyLi0EEET0_S5_T1_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEdLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEeLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEfLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEEET0_SC_PKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEeLi0EEET0_SC_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail5writeIccNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET1_S8_NS0_17basic_string_viewIT_EERKNS0_18basic_format_specsIT0_EE"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN3fmt2v76detail6bufferIcE6appendIcEEvPKT_S7_"
   },
   {
@@ -804,6 +956,10 @@
   {
    "binding" : "weak",
    "name" : "_ZN3fmt2v76detail9dragonbox10to_decimalIfEENS2_10decimal_fpIT_EES5_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN3fmt2v76detail9write_ptrIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEmEET0_S8_T1_PKNS0_18basic_format_specsIT_EE"
   },
   {
    "name" : "_ZN3fmt2v76vprintENS0_17basic_string_viewIcEENS0_11format_argsE"
@@ -1350,6 +1506,18 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZTVN3fmt2v719basic_memory_bufferIcLm500ENSt3__19allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3fmt2v719basic_memory_bufferIjLm32ENSt3__19allocatorIjEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZTVN3fmt2v719basic_memory_bufferIwLm500ENSt3__19allocatorIwEEEE"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZTVNSt3__110__function6__funcIN7android4base10LogdLoggerENS_9allocatorIS4_EEFvNS3_5LogIdENS3_11LogSeverityEPKcSA_jSA_EEE"
   },
   {
@@ -1363,6 +1531,22 @@
   {
    "binding" : "weak",
    "name" : "_ZTVNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE4mins"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE5masks"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE6shiftc"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE6shifte"
   },
   {
    "binding" : "weak",
@@ -1387,6 +1571,10 @@
   {
    "binding" : "weak",
    "name" : "_ZZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEfLi0EEET0_SC_T1_E5specs"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZZN3fmt2v76detail9bsr2log10EiE4data"
   }
  ],
  "enum_types" :
@@ -2525,6 +2713,57 @@
    "source_file" : "external/fmtlib/include/fmt/format.h"
   },
   {
+   "access" : "protected",
+   "function_name" : "fmt::basic_memory_buffer<char, 500>::grow",
+   "linker_set_key" : "_ZN3fmt2v719basic_memory_bufferIcLm500ENSt3__19allocatorIcEEE4growEm",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN3fmt2v719basic_memory_bufferIcLm500ENSt3__19allocatorIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/fmtlib/include/fmt/format.h"
+  },
+  {
+   "access" : "protected",
+   "function_name" : "fmt::basic_memory_buffer<unsigned int, 32>::grow",
+   "linker_set_key" : "_ZN3fmt2v719basic_memory_bufferIjLm32ENSt3__19allocatorIjEEE4growEm",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN3fmt2v719basic_memory_bufferIjLm32ENSt3__19allocatorIjEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/fmtlib/include/fmt/format.h"
+  },
+  {
+   "access" : "protected",
+   "function_name" : "fmt::basic_memory_buffer<wchar_t, 500>::grow",
+   "linker_set_key" : "_ZN3fmt2v719basic_memory_bufferIwLm500ENSt3__19allocatorIwEEE4growEm",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "_ZTIPN3fmt2v719basic_memory_bufferIwLm500ENSt3__19allocatorIwEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/fmtlib/include/fmt/format.h"
+  },
+  {
    "function_name" : "fmt::format_system_error",
    "linker_set_key" : "_ZN3fmt2v719format_system_errorERNS0_6detail6bufferIcEEiNS0_17basic_string_viewIcEE",
    "parameters" :
@@ -2624,6 +2863,52 @@
    ]
   },
   {
+   "function_name" : "fmt::detail::write_char",
+   "linker_set_key" : "_ZN3fmt2v76detail10write_charIcNS1_15buffer_appenderIcEEEET0_S5_T_RKNS0_18basic_format_specsIS6_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_char",
+   "linker_set_key" : "_ZN3fmt2v76detail10write_charIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_S8_T_RKNS0_18basic_format_specsIS9_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+   ]
+  },
+  {
    "function_name" : "fmt::detail::assert_fail",
    "linker_set_key" : "_ZN3fmt2v76detail11assert_failEPKciS3_",
    "parameters" :
@@ -2640,6 +2925,299 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "external/fmtlib/include/fmt/core.h"
+  },
+  {
+   "function_name" : "fmt::detail::write_bytes",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_bytesIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_S8_NS0_17basic_string_viewIcEERKNS0_18basic_format_specsIT_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v717basic_string_viewIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_14big_decimal_fpEcEET_S6_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESB_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail14big_decimal_fpE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIN3fmt2v76detail14big_decimal_fpE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_9dragonbox10decimal_fpIdEEcEET_S8_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESD_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail9dragonbox10decimal_fpIdEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIN3fmt2v76detail9dragonbox10decimal_fpIdEE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINS1_15buffer_appenderIcEENS1_9dragonbox10decimal_fpIfEEcEET_S8_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESD_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail9dragonbox10decimal_fpIfEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIN3fmt2v76detail9dragonbox10decimal_fpIfEE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_14big_decimal_fpEcEET_S9_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESE_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail14big_decimal_fpE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+    "_ZTIN3fmt2v76detail14big_decimal_fpE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_9dragonbox10decimal_fpIdEEcEET_SB_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESG_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail9dragonbox10decimal_fpIdEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+    "_ZTIN3fmt2v76detail9dragonbox10decimal_fpIdEE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS1_6bufferIcEEEENS1_9dragonbox10decimal_fpIfEEcEET_SB_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESG_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail9dragonbox10decimal_fpIfEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+    "_ZTIN3fmt2v76detail9dragonbox10decimal_fpIfEE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS1_14big_decimal_fpEcEET_SD_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESI_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail14big_decimal_fpE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+    "_ZTIN3fmt2v76detail14big_decimal_fpE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS1_9dragonbox10decimal_fpIdEEcEET_SF_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESK_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail9dragonbox10decimal_fpIdEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+    "_ZTIN3fmt2v76detail9dragonbox10decimal_fpIdEE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_float",
+   "linker_set_key" : "_ZN3fmt2v76detail11write_floatINSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS1_9dragonbox10decimal_fpIfEEcEET_SF_RKT0_RKNS0_18basic_format_specsIT1_EENS1_11float_specsESK_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail9dragonbox10decimal_fpIfEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail11float_specsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+    "_ZTIN3fmt2v76detail9dragonbox10decimal_fpIfEE",
+    "_ZTIc"
+   ]
   },
   {
    "function_name" : "fmt::detail::count_digits",
@@ -2856,6 +3434,100 @@
    ]
   },
   {
+   "function_name" : "fmt::detail::write_exponent",
+   "linker_set_key" : "_ZN3fmt2v76detail14write_exponentIcNS1_15buffer_appenderIcEEEET0_iS5_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_exponent",
+   "linker_set_key" : "_ZN3fmt2v76detail14write_exponentIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_iS8_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::fallback_format",
+   "linker_set_key" : "_ZN3fmt2v76detail15fallback_formatIdEEvT_ibRNS1_6bufferIcEERi",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTId"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIRN3fmt2v76detail6bufferIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIRi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "external/fmtlib/include/fmt/format-inl.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_nonfinite",
+   "linker_set_key" : "_ZN3fmt2v76detail15write_nonfiniteIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET0_S8_bRKNS0_18basic_format_specsIT_EERKNS1_11float_specsE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail11float_specsE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+   ]
+  },
+  {
    "function_name" : "fmt::detail::format_error_code",
    "linker_set_key" : "_ZN3fmt2v76detail17format_error_codeERNS1_6bufferIcEEiNS0_17basic_string_viewIcEE",
    "parameters" :
@@ -2935,6 +3607,462 @@
    "template_args" :
    [
     "_ZTIw"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::fill",
+   "linker_set_key" : "_ZN3fmt2v76detail4fillINS1_15buffer_appenderIcEEcEET_S5_mRKNS1_6fill_tIT0_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail6fill_tIcEE"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::fill",
+   "linker_set_key" : "_ZN3fmt2v76detail4fillINSt3__120back_insert_iteratorINS1_6bufferIcEEEEcEET_S8_mRKNS1_6fill_tIT0_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail6fill_tIcEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::fill",
+   "linker_set_key" : "_ZN3fmt2v76detail4fillIPccEET_S4_mRKNS1_6fill_tIT0_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v76detail6fill_tIcEE"
+    }
+   ],
+   "return_type" : "_ZTIPc",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIPc",
+    "_ZTIc"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEdLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTId"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIN3fmt2v76detail10locale_refE"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTId"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEeLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIe"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIN3fmt2v76detail10locale_refE"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIe"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEfLi0EEET0_S5_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIN3fmt2v76detail10locale_refE"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIf"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEiLi0EEET0_S5_T1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIi"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEjLi0EEET0_S5_T1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIj"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEmLi0EEET0_S5_T1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIm"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEnLi0EEET0_S5_T1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIn"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIn"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEoLi0EEET0_S5_T1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIo"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIo"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEExLi0EEET0_S5_T1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIx"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIx"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEyLi0EEET0_S5_T1_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "return_type" : "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIN3fmt2v76detail15buffer_appenderIcEE",
+    "_ZTIy"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEdLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTId"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIN3fmt2v76detail10locale_refE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+    "_ZTId"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEeLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIe"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIN3fmt2v76detail10locale_refE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+    "_ZTIe"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEfLi0EEET0_S8_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIN3fmt2v76detail10locale_refE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+    "_ZTIf"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEEET0_SC_PKT_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEeLi0EEET0_SC_T1_NS0_18basic_format_specsIT_EENS1_10locale_refE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIe"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v718basic_format_specsIcEE"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "_ZTIN3fmt2v76detail10locale_refE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE",
+    "_ZTIe"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write",
+   "linker_set_key" : "_ZN3fmt2v76detail5writeIccNSt3__120back_insert_iteratorINS1_6bufferIcEEEEEET1_S8_NS0_17basic_string_viewIT_EERKNS0_18basic_format_specsIT0_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIN3fmt2v717basic_string_viewIcEE"
+    },
+    {
+     "referenced_type" : "_ZTIRKN3fmt2v718basic_format_specsIcEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
    ]
   },
   {
@@ -3028,6 +4156,30 @@
    "template_args" :
    [
     "_ZTIf"
+   ]
+  },
+  {
+   "function_name" : "fmt::detail::write_ptr",
+   "linker_set_key" : "_ZN3fmt2v76detail9write_ptrIcNSt3__120back_insert_iteratorINS1_6bufferIcEEEEmEET0_S8_T1_PKNS0_18basic_format_specsIT_EE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPKN3fmt2v718basic_format_specsIcEE"
+    }
+   ],
+   "return_type" : "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h",
+   "template_args" :
+   [
+    "_ZTIc",
+    "_ZTINSt3__120back_insert_iteratorIN3fmt2v76detail6bufferIcEEEE",
+    "_ZTIm"
    ]
   },
   {
@@ -4799,6 +5951,30 @@
    "source_file" : "external/fmtlib/include/fmt/format.h"
   },
   {
+   "linker_set_key" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE4mins",
+   "name" : "mins",
+   "referenced_type" : "_ZTIA5_Kj",
+   "source_file" : "external/fmtlib/include/fmt/format-inl.h"
+  },
+  {
+   "linker_set_key" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE5masks",
+   "name" : "masks",
+   "referenced_type" : "_ZTIA5_Ki",
+   "source_file" : "external/fmtlib/include/fmt/format-inl.h"
+  },
+  {
+   "linker_set_key" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE6shiftc",
+   "name" : "shiftc",
+   "referenced_type" : "_ZTIA5_Ki",
+   "source_file" : "external/fmtlib/include/fmt/format-inl.h"
+  },
+  {
+   "linker_set_key" : "_ZZN3fmt2v76detail11utf8_decodeEPKcPjPiE6shifte",
+   "name" : "shifte",
+   "referenced_type" : "_ZTIA5_Ki",
+   "source_file" : "external/fmtlib/include/fmt/format-inl.h"
+  },
+  {
    "linker_set_key" : "_ZZN3fmt2v76detail5writeIcNS1_15buffer_appenderIcEEdLi0EEET0_S5_T1_E5specs",
    "name" : "specs",
    "referenced_type" : "_ZTIKN3fmt2v718basic_format_specsIcEE",
@@ -4832,6 +6008,12 @@
    "linker_set_key" : "_ZZN3fmt2v76detail5writeIcNSt3__120back_insert_iteratorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEfLi0EEET0_SC_T1_E5specs",
    "name" : "specs",
    "referenced_type" : "_ZTIKN3fmt2v718basic_format_specsIcEE",
+   "source_file" : "external/fmtlib/include/fmt/format.h"
+  },
+  {
+   "linker_set_key" : "_ZZN3fmt2v76detail9bsr2log10EiE4data",
+   "name" : "data",
+   "referenced_type" : "_ZTIA64_Kt",
    "source_file" : "external/fmtlib/include/fmt/format.h"
   }
  ],
